@@ -13,8 +13,6 @@ export async function GET(req: NextRequest, res: NextResponse) {
         },
     })
 
-
-    const url = req.nextUrl.toString();
     return NextResponse.json({
         user: {
             id: user.id,
