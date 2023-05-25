@@ -8,8 +8,6 @@ services:
       - .env
     ports:
       - "3000:3000"
-    stdin_open: true
-    tty: true
     volumes:
       - yarn-cache:/usr/local/share/.cache/yarn/v6
       - node_modules:/workspaces/next_study_meeting/node_modules
